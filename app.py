@@ -12,7 +12,7 @@ metrics = PrometheusMetrics(app)
 def health():
     return {"status":"UP"}
 
-@app.route("/surendra")
+@app.route("/surendra"):
 def surendra():
     return {"status":"success","message":"Hello I am surendra Pal"}
 
